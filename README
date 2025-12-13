@@ -1,0 +1,61 @@
+🌱 Habit Plant
+
+Small TypeScript project where habits are represented as plants.
+Each habit grows when you practice it and has a mood based on its growth level.
+
+This project was built to practice core TypeScript concepts such as classes, interfaces, enums, and basic CLI interaction.
+
+✨ Features:
+Each plant has:
+a growth level (0–100)
+a mood (sad, okay, happy)
+you can grow a habit by interacting through the terminal.
+I used simple command-line input using Node’s readline.
+
+🛠️ Tech Stack:
+TypeScript
+Node.js
+ts-node (for development)
+
+📁 Project Structure:
+habit-plant/
+├─ src/
+│ └─ index.ts
+├─ dist/
+│ └─ index.js
+├─ tsconfig.json
+├─ package.json
+└─ README.md
+
+🚀Getting Started
+
+-Clone the repository :
+git clone https://github.com/your-username/habit-plant.git
+cd habit-plant
+
+-Install the dependencies :
+npm install
+
+-Run the project : 
+npx ts-node src/index.ts
+
+
+💬 Example Usage
+🌱 Welcome to the habits garden
+reading -> growth: 0 , mood: sad
+exercise -> growth: 0 , mood: sad
+coding -> growth: 0 , mood: sad
+
+Which habit do you want to grow? reading
+
+Updated garden:
+reading -> growth: 10 , mood: sad
+exercise -> growth: 0 , mood: sad
+coding -> growth: 0 , mood: sad
+
+📌 Possible Improvements:
+
+-Add a loop to allow multiple actions without restarting
+-Save habit data to a file
+-Add habit removal or reset
+-Visualize plant growth with ASCII art
